@@ -1,0 +1,8 @@
+
+> workforce-webapp@1.0.0 start
+> npm --prefix server run start
+
+
+> workforce-webapp-server@1.0.0 start
+> node src/index.js
+

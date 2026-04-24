@@ -1,0 +1,22 @@
+Failed to start Workforce server: error: password authentication failed for user "postgres"
+    at C:\Users\Son\.openclaw\workspace\workforce-webapp\server\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async initDb (file:///C:/Users/Son/.openclaw/workspace/workforce-webapp/server/src/db.js:351:3) {
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '320',
+  routine: 'auth_failed'
+}
